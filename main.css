@@ -13,12 +13,15 @@
 	/* 스타일 */
 }
 
-.s1t{font-size: 2rem;color:#fff;position:absolute;bottom: 5%;padding: 5% 5%;
-    line-height: 2.625rem;
+h1{font-size: 2rem;color:#fff;position:absolute;bottom: 5%;padding: 5% 5%;
+    line-height: 2.8rem;
     letter-spacing: -0.04rem;
     font-weight: 500;
-
   }
-section{width:100%; height: 1200px; margin: 0 auto; background: url(s1.jpg) no-repeat no-repeat;background-size: cover;}
+.s1t{color: #3e3e3e;}
+
+section{width:100%; height: 1200px; margin: 0 auto;background-color: #ebebeb;}
+.s1{background: url(p1.mp4) no-repeat no-repeat;background-size: cover;}
+
 .blur{filter: blur(5px);-web-kit-filter:blur(5px);}
 .btn01{width:20%;height:auto;border: 1px solid #f00;}

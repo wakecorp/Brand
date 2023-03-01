@@ -9,17 +9,32 @@
   <link rel="stylesheet" href="main.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+
+  <script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+
+	</script>
   <script type="text/javascript">
   $(function(){
     $('p').on('click',function(){
-      $('.s5>h1').addclass('.blur');
+      $('.s5t').addclass('.blur',1000);
     });
   });
   </script>
   <title>Branding Works of Khnky</title>
 </head>
 <body>
+  <div class="main">
   <section class="s1">
+    <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 60%;margin-bottom:1em;margin-left:50%;transform:translate(-50%,0);"><source src="p1.mp4" type="video/mp4" alt=""></video>
     <h1 class="s1t">Khnky 는 ‘LOVE’ 와 ‘SCIENCE’ 라는 핵심 가치를 통해 모든 커플들의 사랑과 안녕을 바라는 촉촉한 제품들을 선보였습니다. 핵심가치를 반영한 입욕젤 ‘선악과즙’ 은 Khnky 의 주력상품으로 자리매김하였습니다. 다만, 현재의 시장에서 Khnky는 브랜드 가치보다 ‘선악과즙’ ‘입욕젤’ ‘젤리탕’ 으로 인식되는 제품의 가치에 치중되어 있었습니다. 브랜드 재정립을 통한 브랜드 가치체계 구축은 ‘선악과즙’ 을 비롯한 제품의
       가치 뿐 아니라 Khnky 라는 또 하나의 가치를 소비자에게 제시하는 것과 같습니다.( <i>오! 킨키였네?</i> ) 더불어 Khnky가 나아가야 할 방향성을 제시하고, 시장 영역 확장에 기여하도록 합니다. 이 프로젝트에서는 파편화 되어 있는 에셋을 정리하고 구체화 하여 다양한 제품들이 다양한 채널에서 노출되더라도 일관된 브랜드 메시지를 전달 할 수 있도록 합니다. 지금까지의 자산들과, 출시될 자산들의 연결점을 제시하고, 유저와의 접점에서 건 낼
       브랜드 메시지를 정의하고자 합니다.</h1>
@@ -32,10 +47,10 @@
 
   </section>
   <section class="s5">
-    <h1>Khnky 가 키우는 ‘선악과’ 는 ‘아담’ 과 ‘이브’ 의 이상을 실현시키도록 항상 적극적으로 돕고, 적극적으로 유혹합니다. 각 ‘아담’과 ‘이브’는 자기만의 이상을 가지고 Khnky의       ‘선악과’ 를 통해 자신의 이상을 실현시킵니다. ‘아담’ 과 ‘이브’ 들의 무한한 상상력을 불러일으킬  Khnky 의 ‘선악과’는 매력적이며, 정형화 되지 않았습니다.     </h1>
+    <h1 class="s5t">Khnky 가 키우는 ‘선악과’ 는 ‘아담’ 과 ‘이브’ 의 이상을 실현시키도록 항상 적극적으로 돕고, 적극적으로 유혹합니다. 각 ‘아담’과 ‘이브’는 자기만의 이상을 가지고 Khnky의       ‘선악과’ 를 통해 자신의 이상을 실현시킵니다. ‘아담’ 과 ‘이브’ 들의 무한한 상상력을 불러일으킬  Khnky 의 ‘선악과’는 매력적이며, 정형화 되지 않았습니다.     </h1>
     <p class="btn01">상상력을 자극하는</p>
   </section>
-
+</div>
 
 </body>
 
