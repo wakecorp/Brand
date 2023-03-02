@@ -24,9 +24,20 @@
 	</script>
   <script type="text/javascript">
   $(function(){
-    $('p').on('click',function(){
-      $('.s5t').addclass('.blur',1000);
+    $('.btn01').mouseover(function(){
+      $('.s6t').css({'filter': 'blur(5px)',
+                     '-webkit-filter' : 'blur(5px)',
+                     '-moz-filter'    : 'blur(5px)',
+                     '-o-filter'      : 'blur(5px)',
+                     '-ms-filter'     : 'blur(5px)'});
     });
+    $('.btn01').mouseout(function(){
+      $('.s6t').css({'filter': 'blur(5px)',
+                     '-webkit-filter' : 'blur(0px)',
+                     '-moz-filter'    : 'blur(0px)',
+                     '-o-filter'      : 'blur(0px)',
+                     '-ms-filter'     : 'blur(0px)'});
+  });
   });
   </script>
   <title>Branding Works of Khnky</title>
@@ -48,7 +59,11 @@
   </section>
   <section class="s5">
     <h1 class="s5t">Khnky 가 키우는 ‘선악과’ 는 ‘아담’ 과 ‘이브’ 의 이상을 실현시키도록 항상 적극적으로 돕고, 적극적으로 유혹합니다. 각 ‘아담’과 ‘이브’는 자기만의 이상을 가지고 Khnky의       ‘선악과’ 를 통해 자신의 이상을 실현시킵니다. ‘아담’ 과 ‘이브’ 들의 무한한 상상력을 불러일으킬  Khnky 의 ‘선악과’는 매력적이며, 정형화 되지 않았습니다.     </h1>
+  </section>
+  <section class="s6">
+    <h1 class="s6t">Unlease your imagination.</h1>
     <p class="btn01">상상력을 자극하는</p>
+    <p class="btn02">상상력을 자극하는</p>
   </section>
 </div>
 
