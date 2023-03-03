@@ -12,22 +12,34 @@
 @media screen and (min-width: 1200px) {
 	/* 스타일 */
 }
-
-h1{font-size: 2rem;color:#fff;position:absolute;bottom: 5%;padding: 5% 5%;
-    line-height: 2.8rem;
+body{font-family: 'Noto Sans KR',san-serif;}
+h1{font-size: 1.5rem;color:#fff;position:absolute;bottom: 5%;padding: 5% 5%;
+    line-height: 2.3rem;
     letter-spacing: -0.04rem;
     font-weight: 500;
   }
+section{width:100%; height: 1200px; margin: 0 auto;background-color: #fff;}
+.red{color:#f00;font-family: 'Kanit', sans-serif;}
+.red_only{color:#f00;}
 .s1t{color: #3e3e3e;}
+.s2t{color: #3e3e3e;}
+.s3t{color: #fff;filter: drop-shadow(2px 2px 2px #000;);}
+.s4t{display: block;width: 50%;height: 200px;vertical-align: middle;text-align: center;margin: 50% 0 0 50% ; transform: translate(-50%,-50%);line-height: 50px;font-size: 2rem;
+}
+.context_img{margin-left: 50%; transform: translate(-50%,0);}
 
-section{width:100%; height: 1200px; margin: 0 auto;background-color: #ebebeb;}
 .s1{background: url(p1.mp4) no-repeat no-repeat;background-size: cover;}
-
-.btn01{
+.s2{}
+.s3{background: url(s3.png) no-repeat no-repeat; background-size: cover;}
+.s4{background: url(s4.png) no-repeat no-repeat; background-size: cover;}
+.btn01 , .btn02, .btn03, .btn04{
   cursor: pointer; width:200px;height:50px;border: 1px solid #5e5e5e;
-  border-radius: 50px;margin: 5% auto;vertical-align: middle;font-size: 1em;
+  border-radius: 50px;margin: 2% auto;vertical-align: middle;font-size: 1em;
   line-height: 50px;text-align: center;
 }
-.s6t{
-  width:200px;height:50px;vertical-align: middle;text-align: center;
+.s5t{
+  width:50%;height:50px;vertical-align: middle;text-align: center;color:#2b2b2b;margin-left: 50%; transform: translate(-50%,0);display: none;
+}
+.s5t_1{
+  width:50%;height:50px;vertical-align: middle;text-align: center;color:#2b2b2b;margin-left: 50%; transform: translate(-50%,0);
 }
