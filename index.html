@@ -47,6 +47,16 @@
     $('.s5t').show()
     $('.s5t_1').hide();
   });
+
+  $('.btn02').click(function(){
+    $('.s5t').css({'animation': 'active infinite',
+                    'animation-duration': '5s',
+                    'filter': 'blur(6px)',
+                     '-webkit-filter' : 'blur(6px)',
+                     '-moz-filter'    : 'blur(6px)',
+                     '-o-filter'      : 'blur(6px)',
+                     '-ms-filter'     : 'blur(6px)'});
+  });
   });
   </script>
   <title>Branding Works of Khnky</title>
@@ -74,13 +84,13 @@
     <div class="b_box">
       <p class="btn03">이상적인</p> <!-- 상상을 촉발시키세요/ 이상을 실현하세요 -->
       <p class="btn01">상상력을 자극하는</p> <!-- do your imagination -->
-      <p class="btn01">능동적인</p>
-      <p class="btn01">매력적인</p>
+      <p class="btn02">능동적인</p>
+      <p class="btn04"><a href="#s6">매력적인</a></p>
     </div>
 
 
   </section>
-  <section class="s6">
+  <section class="s6" id="s6">
     <img src="s6.png" alt="" width="100%" class="context_img">
     <h1>Key Visual</h1>
   </section>
