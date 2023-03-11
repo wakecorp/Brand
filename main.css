@@ -20,7 +20,7 @@ section{width:100%; height: 1200px; margin: 0 auto;background-color: #fff;}
 
 
 .s1{background: url(p1.mp4) no-repeat no-repeat;background-size: cover;}
-.s2{}
+.s2{background-color: #fff;}
 .s3{background: url(s3.png) no-repeat no-repeat; background-size: cover;}
 .s4{background: url(s4.png) no-repeat no-repeat; background-size: cover;}
 .s8{background-color: #3b3b3b;}
