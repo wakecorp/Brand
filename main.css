@@ -28,6 +28,11 @@ section{width:100%; height: 1200px; margin: 0 auto;background-color: #fff;}
 .s4i>img{width: 80%;}
 .s5>p{position:absolute;top:10%;left:5%;color:#3e3e3e;font-size: 1.5rem;}
 .s6>p{position:absolute;top:10%;left:5%;color:#3e3e3e;font-size: 1.5rem;}
+.colorbox{width:100px;height:100px;border-radius: 50px;border: 1px solid #ebebeb;filter: drop-shadow(4px 4px 4px #000;);display: inline-block;margin: 50px 50px;}
+.colorbox00{width: 50%;margin: 0 auto;text-align: center;margin-top: 20%;}
+.color_box01{background-color: #3b3b3b;}
+.color_box02{background-color:#fff}
+.color_box03{background-color:#e4002a}
 
 .s1t{color: #3e3e3e;}
 .s2t{color: #3e3e3e;font-family: 'Kanit', 'Noto Sans KR',san-serif;font-weight: 300;}
