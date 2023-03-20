@@ -23,6 +23,7 @@ section{width:100%; height: 1200px; margin: 0 auto;background-color: #fff;}
 .s3>p{position:absolute;top:40%;left: 50%; transform: translate(-50%,0);color:#fff;font-size: 2rem;}
 .s3t_{position:absolute;top:10%;left:5%;color:#fff;font-size: 1.5rem;}
 .s4p{position:absolute;top:10%;left:5%;color:#3e3e3e;font-size: 1.5rem;z-index: 1}
+.logo_btn01{position:absolute;top:15%;left:5%;color:#3e3e3e;font-size: 1.5rem;z-index: 1}
 .s3_1{width: 100%;text-align: center;}
 .s3_1 img{width:80%;}
 .s3_2 img{width:80%;}
