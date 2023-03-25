@@ -30,14 +30,14 @@
   <script type="text/javascript">
   $(function(){
     $('.logo_btn_boxa').mouseover(function(){
-      $('this').css({'filter': 'blur(5px)',
+      $(this).css({'filter': 'blur(5px)',
                      '-webkit-filter' : 'blur(5px)',
                      '-moz-filter'    : 'blur(5px)',
                      '-o-filter'      : 'blur(5px)',
                      '-ms-filter'     : 'blur(5px)'});
     });
-    $('.btn01').mouseout(function(){
-      $('.s5t').css({'filter': 'blur(5px)',
+    $('.logo_btn_boxa').mouseout(function(){
+      $(this).css({'filter': 'blur(5px)',
                      '-webkit-filter' : 'blur(0px)',
                      '-moz-filter'    : 'blur(0px)',
                      '-o-filter'      : 'blur(0px)',
@@ -100,9 +100,9 @@
     <div class="logo_btn_box">
 
 
-    <a href="logo_print.ai" download ><p class="logo_btn01"> logo.ai (인쇄용) </p></a>
-    <a class="logo_btn_boxa"href="logo_display.ai" download ><p class="logo_btn01"> logo.ai (웹 / 디스플레이용) </p></a>
-    <a href="logo.ai" download ><p class="logo_btn01"> logo with Brand-full-name</p></a>
+    <a href="logo_print.ai" download class="btn11 logo_btn_boxa"><p class="logo_btn01"> logo.ai (인쇄용) </p></a>
+    <a class="logo_btn_boxa btn12"href="logo_display.ai" download ><p class="logo_btn01"> logo.ai (웹 / 디스플레이용) </p></a>
+    <a href="logo.ai" download class="btn13 logo_btn_boxa"><p class="logo_btn01"> logo with Brand-full-name</p></a>
     </div>
     <!--h1 class="s4t">
         다양한 색채를 담기 위해, Forbidden Eden 은 역설적으로 모든 색을 빼고, 중성적인 그로테스크 서체를 기초로 로고타입을 만들었습니다.
