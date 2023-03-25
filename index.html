@@ -29,6 +29,7 @@
 	</script>
   <script type="text/javascript">
   $(function(){
+    $('.logo_btn_box').hide()
     $('.logo_btn_boxa').mouseover(function(){
       $(this).css({'filter': 'blur(5px)',
                      '-webkit-filter' : 'blur(5px)',
@@ -43,9 +44,8 @@
                      '-o-filter'      : 'blur(0px)',
                      '-ms-filter'     : 'blur(0px)'});
   });
-  $('.btn03').click(function(){
-    $('.s5t').show()
-    $('.s5t_1').hide();
+  $('.always_btn').click(function(){
+    $('.logo_btn_box').toggle()
   });
 
   $('.btn02').click(function(){
@@ -65,14 +65,16 @@
   <div class="main">
   <section class="s1">
     <!--video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 60%;margin-bottom:1em;margin-left:50%;transform:translate(-50%,0);"><source src="p1.mp4" type="video/mp4" alt=""></video-->
-    <p>Identity</p>
+    <p>Inspiration</p>
     <h1 class="s1t"><span class="red">Forbidden Eden</span>은 '아담과 이브'들의 삶을 자세히 들여다보고, 이들의 이상이 실현될 수 있는 방법들을 제시해왔습니다.
     갈망했던 '선악과'를 따먹는 의지실현을 통해 만나게 된 새로운 '에덴'은 이상을 쫒은 이들의 이상이 발현된 '가장 이상적인 낙원' 이었을 것이라고 믿습니다.
     사회적 기준으로 만들어진 '에덴'을 탈피해 스스로가 추구하는 이상을 맞이할 수 있도록 우리는 돕고, 제안합니다.
     </h1>
   </section>
+  <section class="s9">
+  </section>
   <section class="s2">
-    <p>"forbidden Eden."<br><br>얽매였던 것들을 풀어내고, <br>남용되지 말아야 할 것들을 사용하지 않는.<br><span class="red">Bed&Bath.</span></p>
+    <p>"forbidden Eden."<br><br>얽매였던 것들을 풀어내고, <br>남용되지 말아야 할 것들을 사용하지 않는<br><span class="red_only">Bed&Bath.</span></p>
     <h1 class="s2t">
          Unleash the <span class="red">forbidden</span> things, <span class="red">forbid</span> things that should be not allowed.<br><span class="red">Forbidden Eden</span> 의 브랜드명이자 첫번째 슬로건인 'forbidden Eden.' 은 앞으로 개선할 <span class="red">기존의 관습</span>과 <span class="red">꿈꾸는 이상</span>을 중의적으로 내포하며, <span class="red">Forbidden Eden</span>의 시작점과 앞으로 나아가야할 방향을 제시하고 있습니다.</h1>
   </section>
@@ -84,33 +86,12 @@
     <h1 class="s3t">
         아담과 이브가 갈망하는 이상은 정형화 되어 있지 않습니다.<br> Forbidden Eden은 호기심을 자극하고 상상력을 불러일으켜, 아담과 이브가 자신의 이상을 꿈꿀수 있게 하고, 능동적으로 다가갈 수 있도록 합니다.</h1>
   </section>
-  <section class="s3_1">
-      <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 80%;margin-bottom:1em;margin-left:50%;transform:translate(-50%,0);"><source src="01.mp4" type="video/mp4" alt=""></video>
-  </section>
-  <section class="s3_1">
-      <div><img src="Key03.png" alt=""></div>
-  </section>
   <section class="s3_2">
-  <div><img src="catch01.png" alt=""></div>
-  </section>
-  <section class="s4">
-    <div class="s4i">
-    </div>
     <p class="s4p">Logo type</p>
-    <div class="logo_btn_box">
-
-
-    <a href="logo_print.ai" download class="btn11 logo_btn_boxa"><p class="logo_btn01"> logo.ai (인쇄용) </p></a>
-    <a class="logo_btn_boxa btn12"href="logo_display.ai" download ><p class="logo_btn01"> logo.ai (웹 / 디스플레이용) </p></a>
-    <a href="logo.ai" download class="btn13 logo_btn_boxa"><p class="logo_btn01"> logo with Brand-full-name</p></a>
-    </div>
-    <!--h1 class="s4t">
-        다양한 색채를 담기 위해, Forbidden Eden 은 역설적으로 모든 색을 빼고, 중성적인 그로테스크 서체를 기초로 로고타입을 만들었습니다.
-    </h1-->
-
-
+  <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 80%;margin-bottom:1em;margin-left:50%;transform:translate(-50%,0);"><source src="logo-responsive.mp4" type="video/mp4" alt=""></video>
+    <h1 class="s3_2t">
+        다양한 지면과 다양한 채널에서 노출됨에 어려움이 없도록 2가지 로고타입을 제작하여 활용합니다. <span class='red_only'>관련 파일은 하단의 file 버튼으로 다운로드 할 수 있습니다.</span></h1>
   </section>
-
   <section class="s5">
     <p>Typography</p>
     <div class="">
@@ -134,9 +115,16 @@
 
     </h1>
   </section>
+  <section class="s3_1">
+    <p class="s4p">Website</p>
+      <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 80%;margin-bottom:1em;margin-left:50%;transform:translate(-50%,0);"><source src="01.mp4" type="video/mp4" alt=""></video>
+  </section>
   <section class="s7">
     <p>Application</p>
     <div><img src="app01.png" alt=""></div>
+  </section>
+  <section class="s3_1">
+      <div><img src="Key03.png" alt=""></div>
   </section>
   <section class="s8">
     <p>Communication Channel</p>
@@ -146,7 +134,17 @@
 
 </div>
 <div id="web_only">비좁은 여기 말구 <br>[PC Web]으로 확인해주세요.</div>
+<div id="always">
 
+    <div class="logo_btn_box">
+
+    <a href="logo_print.ai" download class="btn11 logo_btn_boxa"><p class="logo_btn01"> logo.ai (인쇄용) </p></a>
+    <a class="logo_btn_boxa btn12"href="logo_display.ai" download ><p class="logo_btn01"> logo.ai (웹 / 디스플레이용) </p></a>
+    <!--a href="logo.ai" download class="btn13 logo_btn_boxa"><p class="logo_btn01"> logo with Brand-full-name</p></a-->
+    <a class="latest"> 최신화 일자 20230328 </a>
+    </div>
+    <div class="always_btn"><span>file</span></div>
+</div>
 </body>
 
 </html>
