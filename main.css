@@ -91,6 +91,14 @@ a.latest{text-decoration: none;color:#f00;display: inline-block;margin-left:5%;}
     top: 40%;
   }
 }
+/* -- 상세페이지 --*/
+.detail_box{
+  width:30%; height:100%;overflow:scroll;text-align: center;display: inline-block;border-right:0px solid #303030;
+}
+.detail_box video{margin: -3px auto;}
+.detail_fix{
+  position: fixed;bottom:0;right:9%;width:31%;
+}
 
 /*-------- 미디어쿼리-------- */
 
