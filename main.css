@@ -111,6 +111,14 @@ a.latest{text-decoration: none;color:#f00;display: inline-block;margin-left:5%;}
   position: fixed;bottom:0;right:9%;width:31%;
 }
 
+/* -- 펀타지 --*/
+.funtasy_main{
+
+}
+.funtasy_main>img{width:100%;}
+
+
+
 /*-------- 미디어쿼리-------- */
 
 /* 768px 이하일 때 */
