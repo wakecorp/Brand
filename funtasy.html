@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="kr" dir="ltr">
+<html lang="kr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,15 +16,42 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="countdown-timer.js"></script>
 </head>
   <body>
+
+<div class="countdown-timer-wrapper">
+  <h5>펀타지 릴리즈 까지!</h5>
+      <div class="timer" id="countdown"></div>
+    </div>
+<script>
+        $(document).ready(function () {
+
+          var myDate = new Date('2023/05/04 23:59:59');
+        myDate.setDate(myDate.getDate());
+            $("#countdown").countdown(myDate, function (event) {
+                $(this).html(
+                    event.strftime(
+                        '<div class="timer-wrapper"><div class="time">%D</div><span class="text">days</span></div><div class="timer-wrapper"><div class="time">%H</div><span class="text">hrs</span></div><div class="timer-wrapper"><div class="time">%M</div><span class="text">mins</span></div><div class="timer-wrapper"><div class="time">%S</div><span class="text">sec</span></div>'
+                    )
+                );
+            });
+
+        });
+    </script>
+
+    <section class="funtasy_main">
+      <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 100%;"><source src="funtasy/v01.mp4" type="video/mp4" alt=""></video>
       <img src="funtasy/fun-01.png" alt="">
       <img src="funtasy/fun-02.png" alt="">
       <img src="funtasy/fun-03.png" alt="">
-      <video autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" style="width: 100%;"><source src="funtasy/v01.mp4" type="video/mp4" alt=""></video>
+
       <img src="funtasy/fun-04.png" alt="">
       <img src="funtasy/fun-05.png" alt="">
+      <img src="funtasy/fun-08.png" alt="">
       <img src="funtasy/fun-06.png" alt="">
       <img src="funtasy/fun-07.png" alt="">
+</section>
   </body>
 </html>
