@@ -75,8 +75,6 @@ a.latest{text-decoration: none;color:#f00;display: inline-block;margin-left:5%;}
 .s5>div.t_dwn{position:absolute;color:#3e3e3e;font-size: 1.5rem;text-align: left;top:20%;left:5%;}
 .s3_1>div.t_dwn{position:absolute;color:#3e3e3e;font-size: 1.5rem;text-align: left;top:20%;left:5%;z-index: 11;border: 1px solid #e4002b;border-radius: 1.5rem;padding:0 10px;}
 .t_dwn>p{font-size: 1rem; color:#e4003b;cursor: pointer;}
-.ff{display: flex;}
-.ff img{width:50%;}
 
 /* button */
 .b_box{
